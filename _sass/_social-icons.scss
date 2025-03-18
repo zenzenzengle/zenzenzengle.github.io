@@ -1,0 +1,83 @@
+@mixin social-media-icon($color, $transition){
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+  &:hover{
+    color: $color;
+  }
+}
+
+.fa-envelope {
+  padding: 5px;
+  @include social-media-icon($envelope-color, $icon-transition-time);
+}
+
+.fa-twitter {
+  padding: 5px;
+  @include social-media-icon($twitter-color, $icon-transition-time);
+}
+
+.fa-instagram {
+  padding: 5px;
+  @include social-media-icon($instagram-color, $icon-transition-time);
+}
+
+.fa-github {
+  padding: 5px;
+  @include social-media-icon($github-color, $icon-transition-time);
+}
+
+.fa-linkedin {
+  padding: 5px;
+  @include social-media-icon($linkedin-color, $icon-transition-time);
+}
+
+.fa-facebook {
+  padding: 5px;
+  @include social-media-icon($facebook-color, $icon-transition-time);
+}
+
+.fa-google-plus {
+  padding: 5px;
+  @include social-media-icon($google-color, $icon-transition-time);
+}
+
+.fa-pinterest {
+  padding: 5px;
+  @include social-media-icon($pinterest-color, $icon-transition-time);
+}
+
+.fa-medium {
+  padding: 5px;
+  @include social-media-icon($medium-color, $icon-transition-time);
+}
+
+.fa-codepen {
+  padding: 5px;
+  @include social-media-icon($codepen-color, $icon-transition-time);
+}
+
+.fa-rss-square {
+  padding: 5px;
+  @include social-media-icon($rss-color, $icon-transition-time);
+}
+
+// 新增平台样式 (注意Font Awesome 6图标类名)
+.fa-bilibili { // B站图标
+  padding: 5px;
+  @include social-media-icon($bilibili-color, $icon-transition-time);
+}
+
+.fa-weibo { // 微博图标
+  padding: 5px;
+  @include social-media-icon($weibo-color, $icon-transition-time);
+}
+
+// 小红书适配方案（Font Awesome无官方图标，以下二选一）
+// 方案一：使用通用图标替代
+.fa-book { // 使用书本图标替代
+  padding: 5px;
+  @include social-media-icon($xiaohongshu-color, $icon-transition-time);
+}
