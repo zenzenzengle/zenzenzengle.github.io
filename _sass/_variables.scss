@@ -1,0 +1,51 @@
+//迁移所有全局变量
+// _sass/_variables.scss
+// ======================
+// 全局变量库 (使用 !default 允许模块覆盖)
+
+// ----------------------
+// 1. 字体体系
+// ----------------------
+$base-font-family: 'Roboto', sans-serif !default;
+$body-font-family: 'Roboto', sans-serif !default;
+$code-font-family: "Source Code Pro", monospace !default;
+
+// ----------------------
+// 2. 品牌色系
+// ----------------------
+$brand-color: black !default;
+
+// ----------------------
+// 3. 响应式断点
+// ----------------------
+$container-width: 1100px !default;
+$tablet-width: 600px !default;
+$phone-width: 480px !default;
+
+// ----------------------
+// 4. 布局尺寸
+// ----------------------
+$header-thickness: 56px !default;
+
+// ----------------------
+// 5. 动效参数
+// ----------------------
+$icon-transition-time: 1.0s !default;
+
+// ----------------------
+// 6. 社交媒体品牌色
+// ----------------------
+$envelope-color: #f39c12 !default;
+$twitter-color: #00aced !default;
+$instagram-color: #375989 !default;
+$github-color: #343434 !default;
+$linkedin-color: #0073a4 !default;
+$facebook-color: #3d5b99 !default;
+$google-color: #e64a41 !default;
+$pinterest-color: #bd081c !default;
+$medium-color: #00AB6C !default;
+$codepen-color: black !default;
+$rss-color: #ff6600 !default;
+$bilibili-color: #00A1D6 !default;  // B站官方蓝
+$weibo-color: #f39c12 !default;     // 微博橙
+$xiaohongshu-color: #FF2449 !default; // 小红书品牌色

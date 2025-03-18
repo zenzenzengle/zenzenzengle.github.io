@@ -1,3 +1,5 @@
+@use "variables" as *; // 新增此行
+
 .footer {
   background: white;
   color: $brand-color;

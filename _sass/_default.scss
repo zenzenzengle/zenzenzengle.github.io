@@ -1,6 +1,7 @@
 /*
   Site container
 */
+@use "variables" as *; // 新增此行
 
 .container {
   width: $container-width;

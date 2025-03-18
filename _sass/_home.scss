@@ -1,3 +1,5 @@
+@use "variables" as *; // 新增此行
+
 .featured-post {
   height: 400px;
   margin: 5px 10px 10px;
