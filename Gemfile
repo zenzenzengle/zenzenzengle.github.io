@@ -8,3 +8,5 @@ gem "jekyll-sitemap", "1.3.0"
 # 主题依赖
 gem "millennial", 
   git: "https://github.com/LeNPaul/Millennial.git"
+
+gem 'wdm', '>= 0.1.0' 

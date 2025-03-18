@@ -72,7 +72,7 @@
   @include social-media-icon($bilibili-color, $icon-transition-time);
 }
 
-.fa-weibo { // 微博图标
+[class*="fa-weibo"] {
   padding: 5px;
   @include social-media-icon($weibo-color, $icon-transition-time);
 }
