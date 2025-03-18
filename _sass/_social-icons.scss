@@ -67,19 +67,20 @@
 }
 
 // 新增平台样式 (注意Font Awesome 6图标类名)
-.fa-bilibili { // B站图标
+// 修正Bilibili样式（添加fab前缀）
+.fab.fa-bilibili {  // 添加fab前缀匹配Font Awesome 5+的类名结构
   padding: 5px;
   @include social-media-icon($bilibili-color, $icon-transition-time);
 }
 
-[class*="fa-weibo"] {
+// 修正微博样式（改用标准类名）
+.fab.fa-weibo {  // 直接使用类名选择器
   padding: 5px;
   @include social-media-icon($weibo-color, $icon-transition-time);
 }
 
-// 小红书适配方案（Font Awesome无官方图标，以下二选一）
-// 方案一：使用通用图标替代
-.fa-book { // 使用书本图标替代
+// 小红书适配方案（保持原样）
+.fa-book {
   padding: 5px;
   @include social-media-icon($xiaohongshu-color, $icon-transition-time);
 }
