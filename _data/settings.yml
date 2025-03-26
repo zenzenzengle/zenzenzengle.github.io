@@ -6,13 +6,13 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
 
-menu:
-- {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+# menu:
+# - {name: 'Interesting Facts',  url: 'facts'}
+# - {name: 'Learning Resources', url: 'resources'}
+# - {name: 'Sample Posts',       url: 'sample-posts'}
+# - {name: 'Documentation',      url: 'documentation'}
+# - {name: 'About',              url: 'about'}
+# - {name: 'Contact',            url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 # social:
@@ -38,3 +38,22 @@ sharing_button_prompt: '分享这篇文章^_^'
 related_posts: '你可能也喜欢…'
 
 post_date_prefix: '写于'
+
+menu:
+  - {name: '技术前沿',  url: 'Technology'}
+  - {name: '生活方式', url: 'Lifestyle'}
+  - {name: '创意创作', url: 'Creation'}
+  - {name: '学习笔记', url: 'Learning'} 
+  - {name: '思维模式', url: 'Mindset'}
+
+navigation:
+  - title: 技术
+    category: Technology
+  - title: 生活方式
+    category: Lifestyle
+  - title: 创作
+    category: Creation 
+  - title: 学习
+    category: Learning
+  - title: 思维
+    category: Mindset

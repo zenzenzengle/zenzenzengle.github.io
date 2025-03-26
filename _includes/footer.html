@@ -1,6 +1,11 @@
 <footer class="footer">
   {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-  {% endfor %}
+      <a href="{{ item.link }}" class="menu-link" target="_blank">
+        <!-- 修改点1：移除 'fa-' 前缀拼接 -->
+        <!-- 原代码：<i class="fa fa-{{ item.icon }}"></i> -->
+        <!-- 新代码直接使用配置中的完整类名 -->
+        <i class="{{ item.icon }}" aria-hidden="true"></i>
+      </a>
+    {% endfor %}
   <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
 </footer>

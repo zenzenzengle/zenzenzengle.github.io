@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to ZenBlog!"
-author: "Paul Le"
+author: "Zengle"
 categories: documentation
 tags: [documentation,sample]
 image: flower-1.jpeg
